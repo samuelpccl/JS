@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exercicio 6</title>
+
+  <style type="text/css">
+    div{
+      background: black;
+      color: white;
+      padding: 50px;
+      font-size: 42px;
+    }
+  </style>
+
+  <script type="text/javascript">
+    function azul(id) {document.getElementById(id).style.background='blue';}
+    function vermelho(id) {document.getElementById(id).style.background='red';}
+    function cinza(id) {document.getElementById(id).style.background='grey';}
+    function verde(id) {document.getElementById(id).style.background='green';}
+    function roxo(id) {document.getElementById(id).style.background='purple';}
+    function amarelo(id) {document.getElementById(id).style.background='yellow';}
+  </script>
+</head>
+<body>
+  <button onclick="azul('larica')">azul</button>
+  <button onclick="vermelho('larica')">vermelho</button>
+  <button onclick="cinza('larica')">cinza</button>
+  <button onclick="verde('larica')">verde</button>
+  <button onclick="roxo('larica')">roxo</button>
+  <button onclick="amarelo('larica')">amarelo</button>
+
+  <div id="larica">Teste teste teste</div>
+</body>
+</html>
